@@ -3,10 +3,11 @@
 
 name: on pr run
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    types:
+      - closed
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "pushed to main"
+      - run: echo "closed"
