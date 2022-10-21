@@ -22,4 +22,4 @@ jobs:
       run: echo running on branch ${GITHUB_HEAD_REF}
     - name: Test with unitest
       run: |
-        python -m unittest discover -s ${GITHUB_HEAD_REF##*/}
+        python -m unittest discover -s ${GITHUB_HEAD_REF}
