@@ -10,5 +10,5 @@ class AssignmentOneTest(unittest.TestCase):
         with redirect_stdout(output_holder):
             import assignment_lesson_4.helloWorld
             print_out = output_holder.getvalue()
-            self.assertEqual(print_out, "Hello World I love Python!\n")
+            self.assertEqual(print_out, "Hello World Ilove Python!\n")
             print("test done")
