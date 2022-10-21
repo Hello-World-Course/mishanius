@@ -8,5 +8,5 @@
 # בתרגיל הזה כל שעליכם לעשות זה לכתוב פקודת הדפסה בודדת עם המלל הבא
 # "Hello World I love python!"
 
-# WRITE CODE HERE:
+# WRITE CODE HERdE:
 print("Hello World I love Python!")
