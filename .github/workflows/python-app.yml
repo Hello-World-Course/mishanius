@@ -19,7 +19,7 @@ jobs:
       with:
         python-version: "3.10"
     - name: Branch name
-      run: echo running on branch ${GITHUB_REF}
+      run: echo running on branch ${GITHUB_HEAD_REF}
     - name: Test with unitest
       run: |
-        python -m unittest discover -s ${GITHUB_REF##*/}
+        python -m unittest discover -s ${GITHUB_HEAD_REF##*/}
